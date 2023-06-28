@@ -1,22 +1,22 @@
 "use strict";
 
+/*const table = document.body.firstElementChild;
 
-/*
-Вкажіть принаймні один спосіб доступу до кожного з перелічених нижче DOM вузлів:
+const rows = table.rows*/
 
-До DOM вузла <div>?
-*/
-const divELem = document.body.firstElementChild
-console.log(divELem)
-/*
-До DOM вузла <ul>?
- */
-const ulElem = divELem.nextElementSibling
-console.log(ulElem)
-/*
-До другого <li> (Петро)?*/
-const lastLiElem = ulElem.lastElementChild
-console.log(lastLiElem)
+/*for (let i = 0; i < rows.length; i++){
+	let columns = rows[i].children
+	for (let j = 0; j < columns.length; j++){
+		if (i===j)
+			columns[j].style.backgroundColor = 'red'
+	}
+}*/
+
+/*for (let row of rows)
+	for (let column of row.children)
+		if (row.rowIndex === column.cellIndex)
+			column.style.backgroundColor = 'red'*/
+
 
 
 
